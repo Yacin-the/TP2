@@ -3,7 +3,8 @@ package fr.umontpellier.iut.exercice1;
 public class FizzBuzz {
 
     public String getValue(int i) {
-        return "1";
+        if(i==2) return "2";
+        return String.valueOf(i);
     }
 
     public String[] computeList(int i) {

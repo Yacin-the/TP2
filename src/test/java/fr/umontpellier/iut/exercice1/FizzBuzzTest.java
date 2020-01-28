@@ -16,7 +16,7 @@ public class FizzBuzzTest {
         assertEquals("1", result);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_two_should_print_two() {
         String result = fizzBuzz.getValue(2);
