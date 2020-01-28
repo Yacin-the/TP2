@@ -30,7 +30,7 @@ public class FizzBuzzTest {
         assertEquals(result,"Fizz");
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_five_should_print_buzz() {
         String result = fizzBuzz.getValue(5);

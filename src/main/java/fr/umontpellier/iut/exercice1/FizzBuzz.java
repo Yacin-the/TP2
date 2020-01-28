@@ -4,6 +4,7 @@ public class FizzBuzz {
 
     public String getValue(int i) {
         if(i==3) return "Fizz";
+        if(i==5) return "Buzz";
         return String.valueOf(i);
     }
 
