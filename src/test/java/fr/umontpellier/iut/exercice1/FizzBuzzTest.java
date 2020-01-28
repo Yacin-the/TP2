@@ -58,14 +58,14 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", result);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_getList_Should_Return_a_sequence_of_5_FizzBuzz_elements_when_5() {
         String[] result = fizzBuzz.computeList(5);
-        assertEquals(result[0],"1");
-        assertEquals(result[1],"2");
-        assertEquals(result[2],"Fizz");
-        assertEquals(result[3],"4");
-        assertEquals(result[4],"Buzz");
+        assertEquals("1", result[0]);
+        assertEquals("2", result[1]);
+        assertEquals("Fizz", result[2]);
+        assertEquals("4", result[3]);
+        assertEquals("Buzz", result[4]);
     }
 }
