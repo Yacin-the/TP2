@@ -23,7 +23,7 @@ public class FizzBuzzTest {
         assertEquals(result,"2");
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_three_should_print_fizz() {
         String result = fizzBuzz.getValue(3);
