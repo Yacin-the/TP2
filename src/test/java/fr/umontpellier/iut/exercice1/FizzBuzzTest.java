@@ -44,14 +44,14 @@ public class FizzBuzzTest {
         assertEquals("Fizz", result);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_ten_should_print_buzz() {
         String result = fizzBuzz.getValue(10);
         assertEquals("Buzz", result);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_fifteen_should_print_fizzbuzz() {
         String result = fizzBuzz.getValue(15);
