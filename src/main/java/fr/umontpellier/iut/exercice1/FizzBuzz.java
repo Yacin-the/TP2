@@ -11,10 +11,9 @@ public class FizzBuzz {
 
     public String[] computeList(int i) {
         int j=0;
-        FizzBuzz c = new FizzBuzz();
         String[] x = new String[i];
         while(j<i){
-            x[j]=c.getValue(j+1);
+            x[j]=getValue(j+1);
             j++;
         }
         return x;
