@@ -20,42 +20,42 @@ public class FizzBuzzTest {
     @Test
     public void test_two_should_print_two() {
         String result = fizzBuzz.getValue(2);
-        assertEquals(result,"2");
+        assertEquals("2", result);
     }
 
 //    @Disabled
     @Test
     public void test_three_should_print_fizz() {
         String result = fizzBuzz.getValue(3);
-        assertEquals(result,"Fizz");
+        assertEquals("Fizz", result);
     }
 
 //    @Disabled
     @Test
     public void test_five_should_print_buzz() {
         String result = fizzBuzz.getValue(5);
-        assertEquals(result,"Buzz");
+        assertEquals("Buzz", result);
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_six_should_print_fizz() {
         String result = fizzBuzz.getValue(6);
-        assertEquals(result,"Fizz");
+        assertEquals("Fizz", result);
     }
 
     @Disabled
     @Test
     public void test_ten_should_print_buzz() {
         String result = fizzBuzz.getValue(10);
-        assertEquals(result,"Buzz");
+        assertEquals("Buzz", result);
     }
 
     @Disabled
     @Test
     public void test_fifteen_should_print_fizzbuzz() {
         String result = fizzBuzz.getValue(15);
-        assertEquals(result,"FizzBuzz");
+        assertEquals("FizzBuzz", result);
     }
 
     @Disabled
