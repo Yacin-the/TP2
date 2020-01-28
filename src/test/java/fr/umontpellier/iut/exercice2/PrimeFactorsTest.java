@@ -20,38 +20,43 @@ class PrimeFactorsTest {
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void one_should_give_empty() {
         assertEquals(primeFactors.computeFactors(1), list());
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void two_should_give_2() {
         assertEquals(primeFactors.computeFactors(2), list(2));
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void three_should_give_3() {
         assertEquals(primeFactors.computeFactors(3), list(3));
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void four_should_give_2_and_2() {
         assertEquals(primeFactors.computeFactors(4), list(2, 2));
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void five_should_give_5() {
         assertEquals(primeFactors.computeFactors(5), list(5));
+
+        List<Integer> actual = primeFactors.computeFactors(number 5);
+        List<Integer> expected = new ArrayList<Integer>();
+        expected.addAll(actual);
+        assertEquals(actual, expected);
     }
 
 
