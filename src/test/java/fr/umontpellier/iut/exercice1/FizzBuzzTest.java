@@ -9,11 +9,11 @@ import org.junit.jupiter.api.Test;
 public class FizzBuzzTest {
     private FizzBuzz fizzBuzz = new FizzBuzz();
 
-    @Disabled
+//    @Disabled
     @Test
     public void test_one_should_print_one() {
         String result = fizzBuzz.getValue(1);
-        assertEquals(result,"1");
+        assertEquals("1", result);
     }
 
     @Disabled
