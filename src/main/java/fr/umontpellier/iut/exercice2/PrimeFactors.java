@@ -24,13 +24,17 @@ public class PrimeFactors {
             results.add(7);
             number /= 7;
         }
-        while (number%9==0){
-            results.add(9);
-            number /= 9;
-        }
+
         if (number!=1){
             results.add(number);
         }
+/*
+        List<Integer> list;
+        int n=0;
+        while(n<number){
+            n++
+        }*/
+
         return results;
     }
 }
