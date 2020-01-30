@@ -16,14 +16,15 @@ public class PrimeFactors {
             results.add(3);
             number /= 3;
         }
-        if (number%5==0){
+        while (number%5==0){
             results.add(5);
             number /= 5;
         }
-        if (number%7==0){
+        while (number%7==0){
             results.add(7);
             number /= 7;
         }
+
         return results;
     }
 }
