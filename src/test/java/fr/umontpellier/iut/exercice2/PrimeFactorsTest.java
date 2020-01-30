@@ -92,7 +92,7 @@ class PrimeFactorsTest {
         assertEquals(primeFactors.computeFactors(10), list(2, 5));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void four_thousand_one_hundred_fifty_eight_should_give_2_3_3_3_7_11() {
         assertEquals(primeFactors.computeFactors(4158), list(2, 3, 3, 3, 7, 11));
