@@ -60,13 +60,13 @@ class PrimeFactorsTest {
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void six_should_give_2_and_3() {
         assertEquals(primeFactors.computeFactors(6), list(2, 3));
     }
 
-    @Disabled
+//    @Disabled
     @Test
     public void seven_should_give_7() {
         assertEquals(primeFactors.computeFactors(7), list(7));
