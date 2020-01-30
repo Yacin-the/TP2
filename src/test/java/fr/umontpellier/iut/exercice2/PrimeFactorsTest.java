@@ -73,7 +73,7 @@ class PrimeFactorsTest {
     }
 
 
-    @Disabled
+//    @Disabled
     @Test
     public void eight_should_give_2() {
         assertEquals(primeFactors.computeFactors(8), list(2, 2, 2));
